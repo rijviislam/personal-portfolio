@@ -23,7 +23,7 @@ ul li {
 
 .navbar {
     width: 100%;
-    padding: 2rem 4rem;
+    padding: 1.3rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,9 +77,11 @@ ul li {
     color: #ec5b53;
     font-family: 'Rubik', sans-serif;
 }
+
 .introduce__me {
     margin: 3rem 0;
 }
+
 .title__intro {
     font-size: 70px;
     font-weight: 700;
@@ -412,4 +414,262 @@ ul li {
     font-size: 14px;
     font-weight: 500;
     color: #FFF;
+}
+
+.feedback__section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.feedback__title {
+    padding: 3rem 0;
+    width: 600px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Rufina', serif;
+}
+
+.feedback {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feedback__container {
+    width: 400px;
+    min-height: 350px;
+    border-radius: 5px;
+    border: 3px solid #EEE;
+}
+
+.fedback__item {
+    margin: 2rem 0;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.feedback__img {
+    width: 80px;
+    height: 80px;
+}
+
+.feedback__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feedback__details {
+    margin-left: 2rem;
+}
+
+.user__name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ec5b53;
+    font-family: 'Rufina', serif;
+}
+
+.user__profession {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #57667e;
+    font-family: 'Rubik', sans-serif;
+}
+
+.feedback__para {
+    padding: 0 2rem;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #10285d;
+    line-height: 2rem;
+
+}
+
+.image__logo__section {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.logo__container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.contact__info__area {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #FFFAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form__text__container {
+    width: 50%;
+}
+
+.from__text {
+    /* margin: 2rem 0; */
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Rufina', serif;
+    color: #000a2d;
+}
+
+.from__para {
+    margin: 3rem 0;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #10285d;
+    line-height: 2rem;
+}
+
+.form__submit {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputa__name {
+    width: 480px;
+    height: 65px;
+    padding: 1rem;
+    /* margin: 2rem; */
+    font-size: 16px0;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.input__email {
+    width: 480px;
+    height: 65px;
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 16px0;
+    font-weight: 500;
+    background-color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.text__message {
+    padding: 2rem 1rem;
+    width: 480px;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    color: #9D9EAD;
+    background-color: #FFF;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+
+}
+
+.send__button {
+    margin-top: 2rem;
+    width: 480px;
+    height: 65px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2rem;
+    border: none;
+    color: #FFF;
+    background-color: #EC5B53;
+}
+
+.footer__section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #080827;
+}
+
+.footer__container {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__email {
+    margin: 2rem 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer__email a {
+    color: #FFF;
+}
+
+.footer__address {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: #c5c5dd;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+    color: #393a50;
+}
+
+.copyright a {
+    color: #ec5b53;
+}
+
+.icon__container {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon__title {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #848493;
+}
+
+.icons__item {
+    display: flex;
+    align-items: center;
+}
+
+.icon .bx {
+    padding-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: #848493;
+    cursor: pointer;
 }
