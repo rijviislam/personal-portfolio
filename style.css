@@ -186,6 +186,9 @@ ul li {
     min-height: 400px;
     margin-right: 2rem;
     margin-top: 6rem;
+    align-self: flex-end;
+    display: flex;
+    align-items: end;
 
 }
 
